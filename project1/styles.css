@@ -1,0 +1,324 @@
+html{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+#main-container{
+    width: 100%;
+    max-width: 900px;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#main-container #left-container{
+    background-color: #474E68;
+    padding: 0;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    overflow: hidden;
+}
+.photo .split-color{
+    width: 400px;
+    height: 600px;
+    border-radius: 70%;
+    background-color: #FD841F;
+    transform: rotateZ(40deg);
+    margin-left: -100px;
+    margin-top: -364px;
+}
+.photo .pic{
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 70px;
+}
+.left-bottom{
+    padding-left: 30px;
+}
+#left-container .name-text{
+    color: sandybrown;
+}
+h1{
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    margin-top: 0;
+    word-spacing: 0.1.75em;
+}
+.details{
+    padding-left: 30px;
+}
+.details ul{
+    margin-top: 0;
+    padding-left: 15px;
+}
+.details ul li{
+    line-height: 2em;
+    list-style: none;
+}
+.user-details-pic{
+    color:white;
+    padding: 5px;
+    padding-left: 0;
+    font-size: 15px;
+}
+.user-details{
+    padding-left: 10px;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 0.7em;
+    text-align: justify;
+}
+.skill-strength h3{
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.skill-strength ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.skill-strength ul li{
+    line-height: 1.25em;
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.circles{
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: darksalmon;
+    display: inline-block;
+}
+.skills{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 0.65em;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+.circles-2{
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+}
+.hobbies h3{
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.hobbies ul{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.hobbies ul li{
+    list-style: none;
+}
+.hobbies ul li div{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    width:40%;
+}
+.hobbies-image{
+    line-height: 40px;
+    width: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.hobbies-text{
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 0.7em;
+    width: 70%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.technical-skills h3{
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.technical-skills ul{
+    padding-left: 0;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.bullet-circle{
+    height:7px;
+    width:7px;
+    border-radius: 50%;
+    background-color: darksalmon;
+    display: inline-block;
+}
+.tech-text{
+    font-weight: 100;
+    font-size: 0.8em;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+div h3{
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.per-details{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.first-col{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+.per-details .first-col .per-text{
+    font-weight: 100;
+    font-size: 0.8em;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 25px;
+    align-items: baseline;
+}
+.per-image{
+    color: whitesmoke;
+    display: flex;
+    width: 15%;
+    align-items: center;
+}
+#main-container #right-container{
+    background-color: white;
+    padding: 30px;
+}
+.pro-obj h3{
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.pro-obj p{
+    font-size: 0.9em;
+    word-spacing: 2.5px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.edu h3{
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.edu-right{
+    text-align: right;
+}
+.course h4{
+    color: sandybrown;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+.course h5{
+    margin: 0;
+}
+.course h5 div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.course-details ul{
+    padding: 0;
+}
+.course-details ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.course-text{
+    padding-left: 10px;
+    font-size: 0.9em;
+    word-spacing: 2.5px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.extra-curricular h3{
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.certification h3{
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+@media(max-width: 350px)
+{
+    #main-container{
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+    
+}
+@media(max-width: 500px)
+{
+    #main-container{
+        grid-template-columns: 1fr;
+    }
+    .course h4{
+        padding-bottom: 10px;
+    }
+    .course h5 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .course h5 div span{
+        padding-bottom: 5px;
+    }
+    .edu-right{
+        text-align: left;
+    }
+}
+@media(max-width: 800px)
+{
+    #main-container{
+        grid-template-columns: 1fr;
+        width: 500px;
+    }
+    .left-bottom{
+        display: grid;
+        grid-column-gap: 1fr;
+    }
+}
+
+
+
+
+
+
+
